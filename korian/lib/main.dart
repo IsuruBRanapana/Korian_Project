@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:korian/app_screens/first_screen.dart';
+import 'package:korian/app_screens/home.dart';
 import 'package:korian/app_screens/login.dart';
 
 void main() => runApp(MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Login(),
+      home: FirstScreen(),
     );
   }
 }
